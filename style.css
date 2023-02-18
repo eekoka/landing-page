@@ -25,7 +25,7 @@ body {
 .logo {
     flex: 1;
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 900;
     font-style: italic;
 }
@@ -49,6 +49,7 @@ body {
 
 .hero-left {
     flex: 1 1;
+    min-width: 140px;
     margin-right: 6px;
 }
 
@@ -62,7 +63,7 @@ body {
 }
 
 .hero-title {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 6px;
 }
@@ -82,8 +83,6 @@ body {
     flex-direction: column;
     padding-left: 150px;
     padding-right: 150px;
-    /*height: 280px;*/
-    align-items: center;
 }
 
 .content-1-title {
@@ -91,12 +90,13 @@ body {
     font-weight: 600;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .content-1-info {
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    /*gap: 30px;*/
+    justify-content: space-evenly;
     align-items: flex-start;
     padding-bottom: 20px;
 }
